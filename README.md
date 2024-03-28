@@ -20,15 +20,21 @@ Esse é link do Vídeo Tutorial [Link](https://www.youtube.com/watch?v=0y5YdiK7x
     ```python
     ## Windows
     python -m venv .venv
-    source .venv/Scripts/activate # Ativar ambiente
+    cd .venv
+    cd Scripts
+    ./activate
     
     ## Linux 
     ## Caso não tenha virtualenv. "pip install virtualenv"
     virtualenv .venv
     source .venv/bin/activate # Ativar ambiente
     ```
-    
-    Instalar os seguintes pacotes.
+    '''
+    Instalando o requirements.txt
+    pip install -r requirements.txt
+
+  '''
+      Instalar os seguintes pacotes.
     
     ```python
     pip install django
